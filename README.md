@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  Thanks for visiting, we are in alpha right now but check back soon.<br>
+  OpenShiro is registered as an Oregon Benefit Company and is an open startup, you can view our source code at: [https://github.com/duncantmiller/openshiro](https://github.com/duncantmiller/openshiro)<br>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Email me: hello@openshiro.com

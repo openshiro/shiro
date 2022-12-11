@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
-  resources :pages
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  match "(*any)",
+    to: redirect(subdomain: ""),
+    via: :all,
+    constraints: { subdomain: "www" }
 
+  resources :pages
+
+  # Defines the root path route ("/")
   root "pages#index"
 end

@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   private
 
   def redirect_root_domain
-    return unless request.host === "www.openshiro.com"
+    return unless request.host === "openshiro.com"
 
     redirect_to("#{request.protocol}openshiro.com#{request.fullpath}", status: 301)
   end
